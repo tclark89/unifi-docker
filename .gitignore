@@ -1,0 +1,6 @@
+mongo-data
+unifi-data
+.env
+.env.swp
+init-mongo.js
+network_site_Default_v8.0.24.unf
