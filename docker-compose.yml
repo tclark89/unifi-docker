@@ -42,11 +42,11 @@ volumes:
     driver: local
     driver_opts:
       type: nfs
-      o: addr=fileserver.localdomain.lan,rw,vers=4.1
+      o: addr=fileserver.tyler-clark.com,rw,vers=4.1
       device: ":/srv/docker/unifi/unifi-data"
   mongo-data:
     driver: local
     driver_opts:
       type: nfs
-      o: addr=fileserver.localdomain.lan,rw,vers=4.1
+      o: addr=fileserver.tyler-clark.com,rw,vers=4.1
       device: ":/srv/docker/unifi/mongo-data"
