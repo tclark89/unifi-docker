@@ -26,6 +26,7 @@ services:
       - 8880:8880 #optional
       - 6789:6789 #optional
       - 5514:5514/udp #optional
+      - 12445:12445 # api
     restart: unless-stopped
 
   unifi-db:
